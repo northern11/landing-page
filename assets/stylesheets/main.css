@@ -64,9 +64,10 @@ a {
 
 html {
   background: #DAEAF2;
-	 width: 80%;
-	 max-width: 1200px;
-	 margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+  font-family: 'Cabin', sans-serif;
  }
 
  html * {
