@@ -56,6 +56,8 @@ Basic Styling
 ====================================================
 */
 
+/* using these colors - https://coolors.co/daeaf2-1e160a-001c26-204056-daeaf2 */
+
 a {
 	text-decoration: none;
 }
@@ -107,3 +109,19 @@ nav ul li a {
 Form/Banner Styling
 ====================================================
 */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #204056;
+  max-width: 1200px; /* How to get this to stretch across the whole page? */
+  height: 300px;
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
