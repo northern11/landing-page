@@ -55,3 +55,55 @@ table {
 Basic Styling
 ====================================================
 */
+
+a {
+	text-decoration: none;
+}
+
+html {
+  background: #DAEAF2;
+	 width: 80%;
+	 max-width: 1200px;
+	 margin: 0 auto;
+ }
+
+ html * {
+	 -webkit-box-sizing: border-box;
+	         box-sizing: border-box;
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+/*
+====================================================
+Nav Styling
+====================================================
+*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 960px;
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+nav ul li a {
+  color: white;
+}
+
+/*
+====================================================
+Form/Banner Styling
+====================================================
+*/
