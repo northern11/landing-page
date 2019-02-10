@@ -55,3 +55,75 @@ table {
 Basic Styling
 ====================================================
 */
+
+/* using these colors - https://coolors.co/daeaf2-1e160a-001c26-204056-daeaf2 */
+
+a {
+	text-decoration: none;
+}
+
+html {
+  background: #DAEAF2;
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+  font-family: 'Cabin', sans-serif;
+ }
+
+ html * {
+	 -webkit-box-sizing: border-box;
+	         box-sizing: border-box;
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+
+/*
+====================================================
+Nav Styling
+====================================================
+*/
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+  width: 960px;
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 300px;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+/*
+====================================================
+Form/Banner Styling
+====================================================
+*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #204056;
+  max-width: 1200px; /* How to get this to stretch across the whole page? */
+  height: 300px;
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
