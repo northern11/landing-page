@@ -69,9 +69,6 @@ html {
 
 main {
 	width: 100%;
-
-	margin: 0 auto;
-
 }
 
  main * {
@@ -93,23 +90,26 @@ header {
 
 }
 
+nav ul {
+  display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+
+
 #nav-bar {
   position: fixed; /* sets Nav Bar to fixed position */
   top: 0; /* positions the Nav Bar at the top of page */
 	background-color: #1E160A; /* blackish color */
 	height: 40px;
 	width: 100%;
-}
 
-.nav-link {
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-  
 }
 
 nav ul li a {
-  color: white;
+	color: white;
   font-weight: bold;
 }
 
