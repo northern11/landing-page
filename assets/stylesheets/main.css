@@ -64,13 +64,14 @@ a {
 
 html {
   background: #DAEAF2;
-	width: 80%;
-	max-width: 1200px;
-	margin: 0 auto;
   font-family: 'Cabin', sans-serif;
  }
 
- html * {
+main {
+	width: 100%;
+}
+
+ main * {
 	 -webkit-box-sizing: border-box;
 	         box-sizing: border-box;
  }
@@ -86,23 +87,29 @@ Nav Styling
 */
 
 header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 10px;
-  width: 960px;
-}
 
+}
 
 nav ul {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 300px;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+
+
+
+#nav-bar {
+  position: fixed; /* sets Nav Bar to fixed position */
+  top: 0; /* positions the Nav Bar at the top of page */
+	background-color: #1E160A; /* blackish color */
+	height: 40px;
+	width: 100%;
+
 }
 
 nav ul li a {
-  color: white;
+	color: white;
   font-weight: bold;
 }
 
@@ -118,7 +125,7 @@ form {
   align-items: center;
   justify-content: center;
   background-color: #204056;
-  max-width: 1200px; /* How to get this to stretch across the whole page? */
+  max-width: 100%; /* How to get this to stretch across the whole page? */
   height: 300px;
 }
 
@@ -127,3 +134,21 @@ form legend {
   font-size: 24px;
   color: white;
 }
+
+/*
+====================================================
+Section Styling
+====================================================
+*/
+
+section {
+  height: 400px;
+  width: auto;
+}
+
+
+/*
+====================================================
+Footer Styling
+====================================================
+*/
